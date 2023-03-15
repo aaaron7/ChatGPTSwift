@@ -19,7 +19,7 @@ public class ChatGPTAPI: @unchecked Sendable {
     private let temperature: Double
     private let model: String
     
-    private let urlString = "https://openai.api2d.net/v1/chat/completions"
+    private let urlString : String
     private let apiKey: String
     private var historyList = [Message]()
 
